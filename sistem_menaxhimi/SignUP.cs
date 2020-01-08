@@ -28,6 +28,8 @@ namespace sistem_menaxhimi
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
+            this.Close();
+
             fName = textFirstName.Text;
             lName = textLastName.Text;
             emailAddress = textEmail.Text;
